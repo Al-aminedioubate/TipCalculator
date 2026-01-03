@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    flex-direction: column;
+}
+
+.items input{
+    width: 500px;
+    height: 20px;
+}
