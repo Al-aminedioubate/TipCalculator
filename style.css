@@ -4,9 +4,38 @@
     justify-content: center;
     height: 500px;
     flex-direction: column;
+    background-color: whitesmoke;
+    box-shadow: 0 4px 12px rgba(0, 0, 0.15);
+    margin: 100px
 }
 
 .items input{
     width: 500px;
     height: 20px;
+    border-style: 1px solid;
+}
+
+.items label{
+    font-size: large;
+    color: black;
+}
+
+.btn_total button{
+    width: 500px;
+    height: 25px;
+    border-style: none;
+    margin-top: 20px;
+    color: whitesmoke;
+    background-color: green;
+    cursor: pointer;
+}
+
+.btn_total button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.btn_total p{
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
