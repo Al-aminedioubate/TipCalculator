@@ -12,7 +12,13 @@
 .items input{
     width: 500px;
     height: 20px;
-    border-style: 1px solid;
+    border-radius: 6px;
+    outline: none;
+}
+
+input:focus {
+  border-color: #4f46e5; /* bleu moderne */
+  box-shadow: 0 0 1px 3px rgba(79, 70, 229, 0.2);
 }
 
 .items label{
