@@ -1,16 +1,24 @@
 /*general style section*/
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    margin: 100px;
+}
+
+/*container style section*/
 .container{
     display: flex;
+    flex-shrink: 1;
+    width: 50%;
+    height: 500px;
     align-items: center;
     justify-content: center;
-    flex-shrink: 1;
-    width: 700px;
-    height: 500px;
     flex-direction: column;
     background-color: whitesmoke;
     box-shadow: 0 4px 12px rgba(0, 0, 0.15);
-    margin: 100px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 /*Input style section*/
@@ -31,6 +39,7 @@ input:focus {
     font-size: large;
     color: black;
 }
+
 /*Btn style section*/
 .btn_total button{
     width: 500px;
@@ -40,10 +49,11 @@ input:focus {
     color: whitesmoke;
     background-color: green;
     cursor: pointer;
+    border-radius: 10px;
 }
 
 .btn_total button:hover{
-    transform: scale(1.1);
+    transform: scale(1.01);
     cursor: pointer;
 }
 
